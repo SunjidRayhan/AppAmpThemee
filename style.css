@@ -1,0 +1,221 @@
+body,h1,h2,h3,h4,h5,p,span,a{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.common-bg{
+    background: #f7f9ff;
+}
+
+/* header section */
+.logo{
+    width: 40px;
+    height: auto;
+}
+.header .navbar-brand{
+    font-size: 26px;
+    font-weight: 500;
+}
+/* Slaider section */
+.slider-section{
+    background: url(image/mbr-10.jpg) no-repeat center center;
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+}
+.slider-section::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(14, 13, 13,.6);
+    z-index: -1;
+}
+.slider-caption h4{
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+.slider-caption h3{
+    font-size: 40px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+}
+.slider-caption .form-control{
+    padding: 15px 10px;
+}
+.slider-caption .btn{
+    padding: 15px 10px;
+    background: #5ba533;
+    color: #fff;
+}
+/* number counter */
+.number-counter{
+    padding: 50px 0;
+}
+.number-counter-item .h2{
+    font-size: 60px;
+}
+.number-counter-item .text-muted{
+    font-size: 20px;
+}
+/* about section */
+.about-section{
+    background: #f7f9ff;
+}
+.about-left-text{
+    margin-top: 120px;
+}
+.about-left-text .h2{
+    font-size: 45px;
+}
+.about-left-text .lead{
+    font-size: 22px;
+    line-height: 2rem;
+}
+/* feture section */
+.feture-text .h3{
+    font-size: 40px;
+}
+.feture-text .text-muted{
+    font-size: 25px;
+}
+.feture-item{
+    height: 250px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.3);
+}
+.feture-item-img{
+    width: 42%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.feture-item-img img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -90px;
+}
+.feture-item-img-3{
+    width: 42%;
+    overflow: hidden;
+    border-radius: 5px 0 0 5px;
+}
+.feture-item-img-3 img{
+    height: 100%;
+    width: auto !important;
+    max-width: inherit;
+    position: relative;
+    left: -20px;
+}
+.feture-item-text{
+    width: 58%;
+    padding: 20px;
+}
+.feture-item-text h4{
+    font-size: 22px;
+}
+.feture-item-text p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+/* frotfolio section */
+.fortfolio-item{
+    position: relative;
+}
+.fortfolio-item a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(98, 120, 223, .5);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5;
+}
+.fortfolio-item:hover a::after{
+    opacity: 1;
+    visibility: visible;
+}
+/* praicing section */
+.pricing-item{
+    background: #fff;
+}
+.pricing-item ul{
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+.pricing-item ul li{
+    padding: 15px 0;
+    font-size: 20px;
+}
+.pricing-item ul li span{
+    font-size: 25px;
+    width: 35px;
+    height: auto;
+    display: inline-block;
+    color: #6278df;
+    font-weight: bold;
+}
+/* about section */
+.about-section{
+    background: #fff;
+}
+.about-user{
+    width: 180px;
+    margin: auto;
+}
+.about-user img{
+    width: 60px;
+    margin-right: 15px;
+}
+.about-user-info{
+    text-align: left;
+}
+.about-user-info h1{
+    font-size: 20px;
+}
+.about-section-all span{
+    display: inline-block;
+    font-size: 80px;
+    opacity: .1;
+    margin-bottom: 20px;
+}
+/* team-section */
+.team-item{
+    margin-top: 150px;
+}
+.team-item .card img{
+    width: 120px;
+    height: auto;
+    margin-top: -80px;
+    margin-left: 20px;
+}
+.team-item .card h3{
+    font-size: 20px;
+}
+.team-item .card h5{
+    font-size: 18px;
+}
+.team-item .card p{
+    font-size: 18px;
+}
+/* contact section */
+.contact-form .card .card-title{
+    font-size: 25px;
+}
+.contact-form .card form input{
+    padding: 15px 10px;
+}
+.contact-bottom-img{
+    width: 600px;
+    margin: auto;
+}
+=================================================== Done ===================================================

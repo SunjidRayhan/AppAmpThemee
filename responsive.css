@@ -1,0 +1,198 @@
+@media all and (max-width:1000px) {
+    .slider-caption h4 {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    .slider-caption h3 {
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+    .slider-caption .form-control {
+        padding: 10px 10px;
+    }
+    .slider-caption .btn {
+        padding: 11px 10px;
+    }
+    .number-counter-item .text-muted {
+        font-size: 16px;
+    }
+    .number-counter-item .h2 {
+        font-size: 40px;
+    }.about-section {
+        background: #fff;
+        padding-bottom: 0px !important;
+    }
+    .about-left-text {
+        margin-top: 0px;
+    }
+    .about-left-text .h2 {
+        font-size: 32px;
+        margin-bottom: 1.5rem !important;
+    }
+    .about-left-text .lead {
+        font-size: 20px;
+        line-height: 2rem;
+    }
+    .feture {
+        padding: 1rem !important;
+    }
+    .feture-text .h3 {
+        font-size: 35px;
+        margin: 16px 0 !important;
+    }
+    .feture-text .text-muted {
+        font-size: 22px;
+    }
+    .fortfolio-text {
+        padding: 1.5rem 0 !important;
+    }
+    .pricing-item h1 {
+        font-size: 24px;
+        margin-bottom: 1rem !important;
+    }
+    .pricing-item h4 {
+        margin-bottom: 1rem !important;
+        font-size: 18px;
+    }
+    .pricing-item ul li {
+        padding: 8px 0;
+        font-size: 16px;
+    }
+    .pricing-item ul li span {
+        font-size: 18px;
+        width: 30px;
+    }
+    .pricing-item-button {
+        margin-bottom: 0 !important;
+    }
+    .pricing-item-button a {
+        width: 180px;
+        font-size: 18px;
+    }.about-section-all h5 {
+        margin-bottom: 1rem !important;
+    }
+    .about-section-all h1 {
+        font-size: 25px;
+        margin-bottom: 1rem !important;
+    }
+    .about-section-all span {
+        font-size: 60px;
+        margin-bottom: 15px;
+    }
+    .about-user {
+        margin-bottom: 40px !important;
+    }
+    .about-section-all h1 {
+        font-size: 18px;
+        margin-bottom: 0 !important;
+    }
+    .team-section h1 {
+        font-size: 30px;
+        padding: 1.5rem 0 !important;
+        text-align: center;
+    }
+    .team-history p {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    .team-item {
+        margin-top: 85px;
+    }
+    .team-item .card img {
+        width: 80px;
+        margin-top: -50px;
+        margin-left: 25px;
+    }
+}
+@media all and (max-width:768px) {
+    .slider-caption h4 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .slider-caption h3 {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+    .slider-caption .form-control {
+        padding: 7px 8px;
+        margin-bottom: 15px;
+    }
+    .slider-caption .btn {
+        padding: 7px 10px;
+    }
+    .number-counter-item .h2 {
+        font-size: 30px;
+    }
+    .number-counter-item .text-muted {
+        font-size: 13px;
+    }
+    .about-left-text .h2 {
+        font-size: 25px;
+        margin-bottom: 1rem !important;
+    }
+    .about-left-text .lead {
+        font-size: 15px;
+        line-height: 1.5rem;
+    }
+    .feture-text .h3 {
+        font-size: 30px;
+    }
+    .feture-text .text-muted {
+        font-size: 18px;
+    }
+    .feture-item-text h4 {
+        font-size: 20px;
+    }
+    .feture-item-text p {
+        font-size: 13px;
+    }
+    .pricing-text h1 {
+        font-size: 20px;
+    }
+    .pricing-text h4 {
+        font-size: 16px;
+        letter-spacing: 0.5px;
+    }
+    .team-section h1 {
+        font-size: 25px;
+        padding: 1rem 0 !important;
+    }
+    .team-history p {
+        font-size: 16px;
+    }
+    .team-item .card img {
+        width: 60px;
+        margin-top: -35px;
+        margin-left: 20px;
+    }
+    .team-item .card h3 {
+        font-size: 20px;
+    }
+    .team-item .card h5 {
+        font-size: 16px;
+        margin-bottom: 1rem !important;
+    }
+    .team-item .card p {
+        font-size: 16px;
+        margin-bottom: 1rem !important;
+    }
+    .font-weight-bold {
+        font-weight: 600 !important;
+    }
+    .contact-section-bottom h3 {
+        margin-bottom: 1rem !important;
+        font-size: 18px;
+    }
+    .contact-section-bottom h1 {
+        font-size: 24px;
+    }
+    .contact-bottom-img {
+        width: 100%;
+        margin: auto;
+    }
+    .footer-section p {
+        font-size: 17px;
+    }
+    
+
+}
